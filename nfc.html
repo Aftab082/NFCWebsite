@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <!-- Logo image and text -->
+            <img src="logo.jpg" alt="Logo" class="logo-img">
+            <span>NFCLPL</span>
+        </div>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="button-group">
+            <!-- Contact button is now on the left -->
+            <div id="menu-btn">&#9776;</div> <!-- Menu button moved to the right -->
+            <a href="#contact" class="contact-btn">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- Hero Section with full-screen background image -->
+    <section id="home" class="hero-section">
+        <h1>Welcome</h1>
+        <h2>To</h2>
+        <h3> N F CARRIERS AND LOGISTICS</h3>
+        <h4>PVT. LTD.</h4>
+        <p>Your reliable logistics partner.</p>
+        <a href="#services" class="link-btn">Our Services</a>
+    </section>
+
+    <!-- Services Section with a 5-column grid -->
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <!-- Services in a grid format -->
+        <div class="services-grid">
+            <div class="service">
+                <h3>Transportation</h3>
+                <p>Efficient and timely transportation services.</p>
+            </div>
+            <div class="service">
+                <h3>Trailers</h3>
+                <p>Secure and reliable fleet solutions.</p>
+            </div>
+            <div class="service">
+                <h3>Warehousing</h3>
+                <p>Safe and secure warehousing facilities.</p>
+            </div>
+            <div class="service">
+                <h3>Logistics Management</h3>
+                <p>Comprehensive logistics management services.</p>
+            </div>
+            <div class="service">
+                <h3>Consulting</h3>
+                <p>Expert logistics consulting and solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Sections -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are a leading logistics company providing top-notch services.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="link-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 LogisticsCo. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
